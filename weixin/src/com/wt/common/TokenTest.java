@@ -56,6 +56,7 @@ public class TokenTest {
 		inputStream.close();
 		conn.getClass();
 		System.out.println(buffer);
+
 		
 		JSONObject jsonObject = JSONObject.fromObject(buffer.toString());
 		String accessToken = jsonObject.getString("access_token");

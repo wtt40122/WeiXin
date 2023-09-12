@@ -15,6 +15,7 @@ public class EncodeUtil {
 		}catch(Exception e){
 			e.printStackTrace();
 		}
+
 		return result;
 	}
 	public static void main(String[] args) {

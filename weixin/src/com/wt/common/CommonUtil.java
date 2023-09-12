@@ -40,6 +40,7 @@ public class CommonUtil {
 	private static Logger log = LoggerFactory.getLogger(CommonUtil.class);
 	public final static String token_url = "https://api.weixin.qq.com/cgi-bin/token?grant_type="
 			+ "client_credential&appid=APPID&secret=APPSECRET";
+
 	public static JSONObject httpsRequest(String requestUrl,String requestMethod,String outputStr){
 		JSONObject jsonObject = null;
 		try{

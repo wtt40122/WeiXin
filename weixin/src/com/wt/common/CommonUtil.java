@@ -32,6 +32,7 @@ public class CommonUtil {
 	//微信号密钥
 	//public static final String appSecret = "c1276c49c9fde15a58a5e7063f3a7f0b";
 
+	//
 	//测试公众号
 	//微信号Id
 	public static final String appID = "wxc5fab93cb0fee393";

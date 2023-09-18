@@ -39,6 +39,8 @@ public class CommonUtil {
 	//微信号密钥
 	public static final String appSecret = "5ec6fcbb25c16f6478240e2810e29901";
 	private static Logger log = LoggerFactory.getLogger(CommonUtil.class);
+
+
 	public final static String token_url = "https://api.weixin.qq.com/cgi-bin/token?grant_type="
 			+ "client_credential&appid=APPID&secret=APPSECRET";
 
